@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "catalogId": "CMR",
+      "catalogType": "Jeans",
+      "itemName": "Miller Office",
+      "priceNumber": 60,
+      "color": "Black",
+      "Stock": 22,
+      "lastUpdated": "2022-10-08"
+    },
+    {
+      "catalogId": "CMR",
+      "catalogType": "PANT",
+      "itemName": "FULL",
+      "priceNumber": "2000",
+      "color": "RED",
+      "Stock": "1",
+      "lastUpdated": "2022-09-28",
+      "id": 2
+    },
+    {
+      "catalogId": "DMR",
+      "catalogType": "SHIRT",
+      "itemName": "HALF",
+      "priceNumber": "1000",
+      "color": "WHITE",
+      "Stock": "3",
+      "lastUpdated": "2022-09-23",
+      "id": 3
+    },
+    {
+      "catalogId": "PAS",
+      "catalogType": "SHIRT",
+      "itemName": "FULL",
+      "priceNumber": "1000",
+      "color": "WHITE",
+      "Stock": "3",
+      "lastUpdated": "2022-09-24",
+      "id": 4
+    },
+    {
+      "catalogId": "PAS",
+      "catalogType": "SHIRT",
+      "itemName": "FULL",
+      "priceNumber": "1000",
+      "color": "WHITE",
+      "Stock": "3",
+      "lastUpdated": "2022-09-25",
+      "id": 5
+    },
+    {
+      "catalogId": "qwe",
+      "catalogType": "qwe",
+      "itemName": "qwe",
+      "priceNumber": "12",
+      "color": "RED",
+      "Stock": "2",
+      "lastUpdated": "2022-09-26",
+      "id": 6
+    },
+    {
+      "catalogId": "WER",
+      "catalogType": "PANT",
+      "itemName": "FULL ",
+      "priceNumber": "20000",
+      "color": "CREAM",
+      "Stock": "1",
+      "lastUpdated": "2022-09-27",
+      "id": 7
+    },
+    {
+      "catalogId": "BMR",
+      "catalogType": "Jumpers",
+      "itemName": "Miller Office",
+      "priceNumber": "67",
+      "color": "Red",
+      "Stock": "16",
+      "lastUpdated": "2022-05-06",
+      "id": 8
+    },
+    {
+      "catalogId": "123",
+      "catalogType": "xyz",
+      "itemName": "abc",
+      "priceNumber": "123",
+      "color": "red",
+      "Stock": "345",
+      "lastUpdated": "2022-10-01",
+      "id": 9
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+* {
+  -ms-overflow-style: none;
+}
+
+.errorMsg {
+  color: red !important;
+  font-weight: 100 !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+
+}
+
+.grid-table {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  align-content: center;
+  padding-top: 20px;
+}
+
+nav {
+  background-color: #397EF6;
+}
+
+.head {
+  color: #ffff;
+}
+
+.head li a {
+  color: #ffff;
+  font-weight: 500;
+}
+
+.user-form p {
+  color: #397EF6;
+  font-weight: 500;
+}
+
+.user-form p span {
+  color: #a3a3a3;
+}
+
+.user-form label {
+  color: #a3a3a3;
+  font-weight: 400;
+}
+
+button {
+  background-color: #397EF6;
+  color: #fff;
+}
+
+.user-form input {
+  color: #a3a3a3;
+  font-size: 13px;
+}
+
+.form-left img {
+  height: 550px;
+  width: 100%;
+}
+
+.user-logout {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 30px;
+  height: auto;
+  top: 3px;
+  left: 5px;
+}
+
+.overlay {
+  position: absolute;
+  right: 2px;
+  top: 20px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background: #f1f1f1;
+  width: 35px;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 10px;
+  font-weight: normal;
+  text-align: center;
+  color: #000 !important;
+  cursor: pointer;
+}
+
+.user-logout:hover .overlay {
+  opacity: 1;
+}
+
+.ag-theme-alpine {
+  --ag-header-height: 30px;
+  --ag-border-color: #FCFCFC;
+  margin-top: 20px;
+  --ag-borders-row: dashed 5px;
+  /* --ag-row-border-color: rgb(150, 150, 200); */
+
+  --ag-header-foreground-color: #FCFCFC;
+  --ag-header-background-color: #397EF6;
+
+  /* text-align: center; */
+  /* then add back a border between rows */
+  --ag-borders-row: dashed 1px;
+  /* --ag-row-border-color: black; */
+
+}
+
+/* 
+.ag-theme-alpine .ag-header {
+  font-family: 'Times New Roman', Times, serif;
+} */
+.ag-theme-alpine .ag-header-group-cell {
+  font-weight: normal;
+  font-size: 22px;
+  --ag-borders-row: dashed 1px;
+}
+
+.ag-theme-alpine .ag-header-cell {
+  font-size: 14px;
+}
+
+.example-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.grid-wrapper {
+  flex: 1 1 0px;
+  width: 100%;
+}
+
+#myGrid {
+  height: 100%;
+}
+
+.uplodedata input[type=file] {
+  border: none;
+  width: 20%;
+}
+
+.edit {
+  cursor: pointer;
+  color: #397EF6;
+}
+
+.delete {
+  cursor: pointer;
+  color: red;
+}
+
+.grid-table {
+  display: flex;
+}
+
+.filter-dropdown {
+  border: 1px solid black;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 2px 5px;
+}
+
+.main-form{
+  animation: fadeInRight 1s ease-in-out;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(300px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.sctockMain {
+  display: flex;
+  gap: 4px;
+}
+.sctockValue {
+  width: 25px;
+}
+.stockCommon {
+  width: 40px;
+  height: 35px;
+  border: 2px solid grey;
+  display: block;
+}
+.stcokRed {
+  background-color: red;
+}
+.stcokgreen {
+  background-color: green;
+}
+.stcokyellow {
+  background-color: yellow;
+}
+.input-text {
+  font-weight: 450 ;
+}
+.input-search {
+ margin-left: 5px;
+  padding: 4px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
